@@ -44,7 +44,7 @@ while True:
     print(choice_name, 'vs', comp_choice_name)
 
     #Determine the winner
-    if comp_choice == 1:
+    if choice == comp_choice:
         result = "DRAW"
     elif (choice == 1 and comp_choice == 2) or (comp_choice == 1 and choice == 2):
         result = 'Paper'
